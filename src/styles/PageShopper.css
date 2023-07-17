@@ -1,0 +1,52 @@
+/* PageShopper.css */
+.shopper-table {
+  border-collapse: collapse;
+  margin-left: 5%;
+}
+
+.shopper-table th,
+.shopper-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.shopper-table th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.shopper-table a {
+  margin-top: 3px;
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease; /* Add transition effect */
+}
+
+.shopper-table a:hover {
+  color: #ffffff; /* Darken the link color on hover */
+  text-decoration: underline;
+}
+
+.shopper-table td:last-child {
+  text-align: center; /* Center the action column */
+}
+
+.shopper-table .view-link {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.shopper-table .view-link:hover {
+  background-color: #004d9e; /* Darken the button color on hover */
+}
+
+h1, h2, h3, h4{
+  display: flex;
+  justify-content: center;
+  margin: 13%;
+}
